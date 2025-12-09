@@ -1,0 +1,10 @@
+{
+  "build": {
+    "env": {},
+    "command": "npm run build",
+    "outputDirectory": "build"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}
