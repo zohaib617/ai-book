@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="400"
+   height="250"
+   viewBox="0 0 400 250"
+   version="1.1"
+   id="svg8"
+   inkscape:version="1.0.2 (e86c870879, 2021-01-14)"
+   sodipodi:docname="rclpy-architecture.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4"
+     inkscape:cx="200"
+     inkscape:cy="125"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     units="px"
+     inkscape:window-width="1280"
+     inkscape:window-height="750"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>rclpy Architecture Diagram</dc:title>
+        <dc:description>Illustrates the architecture of rclpy as a Python client library for ROS 2</dc:description>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <!-- Your Python Code -->
+    <rect
+       style="fill:#c8e6c9;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
+       id="rect833"
+       width="120"
+       height="50"
+       x="140"
+       y="20"
+       ry="5" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:14px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;text-anchor:middle"
+       x="200"
+       y="45"
+       id="text837"><tspan
+         sodipodi:role="line"
+         id="tspan835"
+         x="200"
+         y="45">Your Python</tspan><tspan
+         sodipodi:role="line"
+         x="200"
+         y="62.5"
+         id="tspan839">Code</tspan></text>
+
+    <!-- Arrow down -->
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Lend)"
+       d="M 200 70 L 200 90"
+       id="path841" />
+
+    <!-- rclpy -->
+    <rect
+       style="fill:#aed581;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
+       id="rect843"
+       width="120"
+       height="50"
+       x="140"
+       y="90"
+       ry="5" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:14px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;text-anchor:middle"
+       x="200"
+       y="115"
+       id="text847"><tspan
+         sodipodi:role="line"
+         id="tspan845"
+         x="200"
+         y="115">rclpy</tspan><tspan
+         sodipodi:role="line"
+         x="200"
+         y="132.5"
+         id="tspan849">(Python API)</tspan></text>
+
+    <!-- Arrow down -->
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Lend)"
+       d="M 200 140 L 200 160"
+       id="path851" />
+
+    <!-- rcl -->
+    <rect
+       style="fill:#ffcc80;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
+       id="rect853"
+       width="120"
+       height="50"
+       x="140"
+       y="160"
+       ry="5" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:14px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;text-anchor:middle"
+       x="200"
+       y="185"
+       id="text857"><tspan
+         sodipodi:role="line"
+         id="tspan855"
+         x="200"
+         y="185">rcl</tspan><tspan
+         sodipodi:role="line"
+         x="200"
+         y="202.5"
+         id="tspan859">(C Client)</tspan></text>
+
+    <!-- Arrow down -->
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Lend)"
+       d="M 200 210 L 200 230"
+       id="path861" />
+
+    <!-- DDS/Middleware -->
+    <rect
+       style="fill:#ffab91;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
+       id="rect863"
+       width="120"
+       height="50"
+       x="140"
+       y="230"
+       ry="5" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:14px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;text-anchor:middle"
+       x="200"
+       y="255"
+       id="text867"><tspan
+         sodipodi:role="line"
+         id="tspan865"
+         x="200"
+         y="255">DDS</tspan><tspan
+         sodipodi:role="line"
+         x="200"
+         y="272.5"
+         id="tspan869">(Middleware)</tspan></text>
+
+    <!-- Title -->
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;text-anchor:middle"
+       x="200"
+       y="15"
+       id="text873"><tspan
+         sodipodi:role="line"
+         id="tspan871"
+         x="200"
+         y="15">rclpy Architecture</tspan></text>
+  </g>
+</svg>

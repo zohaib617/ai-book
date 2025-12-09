@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git fetch --all --prune)",
+      "Bash(ls -1d specs/*-physical-ai-robotics)",
+      "Bash(pwsh -File \".specify/scripts/powershell/create-new-feature.ps1\" -Json -Number 1 -ShortName \"physical-ai-robotics\" \"Physical AI & Humanoid Robotics — Modules 1–4\n\nTarget audience: CS/AI/robotics students  \nFocus: End-to-end robotics pipeline (ROS 2 → Simulation → Perception → VLA)\n\nEach module must contain 2–3 chapters explaining core concepts, workflows, and practical understanding.\n\n-------------------------------------------------------\nMODULE 1 — ROS 2: The Robotic Nervous System\nFocus: Middleware for humanoid control  \nChapters:\n1. ROS 2 Nodes, Topics, Services  \n2. rclpy: Bridging Python Agents to ROS 2  \n3. URDF basics for humanoid robots  \n\nSuccess: Clear ROS 2 communication flow, correct concepts, no deep code.\n\n-------------------------------------------------------\nMODULE 2 — Digital Twin (Gazebo & Unity)\nFocus: Simulation, physics, sensors  \nChapters:\n1. Gazebo physics: gravity, collisions  \n2. Environment + sensor simulation (LiDAR, Depth, IMU)  \n3. Unity: high-fidelity rendering & interaction  \n\nSuccess: Accurate simulation fundamentals, no game-dev level depth.\n\n-------------------------------------------------------\nMODULE 2 — Digital Twin (Gazebo & Unity)\nFocus: Simulation, physics, sensors  \nChapters:\n1. Gazebo physics: gravity, collisions  \n2. Environment + sensor simulation (LiDAR, Depth, IMU)  \n3. Unity: high-fidelity rendering & interaction  \n\nSuccess: Accurate simulation fundamentals, no game-dev level depth.\n\n-------------------------------------------------------\nMODULE 3 — AI-Robot Brain (NVIDIA Isaac™)\nFocus: Perception, VSLAM, navigation  \nChapters:\n1. Isaac Sim photorealistic simulation + synthetic data  \n2. Isaac ROS pipelines: VSLAM, navigation  \n3. Nav2 for bipedal humanoid movement  \n\nSuccess: Clear perception → SLAM → navigation flow.\n\n-------------------------------------------------------\nMODULE 4 — Vision-Language-Action (VLA)\nFocus: Whisper + LLM planning + robot actions  \nChapters:\n1. Voice-to-Action (Whisper)  \n2. Cognitive Planning (LLMs → ROS 2 actions)  \n3. Capstone: Autonomous Humanoid pipeline  \n\nSuccess: Correct VLA workflow, realistic capabilities.\n\n-------------------------------------------------------\nConstraints (all modules):\n- 1,500–3,000 words per module  \n- Docusaurus MD/MDX  \n- ALT-text for diagrams  \n- RAG-friendly chunking  \n- No hallucinated claims or hardware-specific code\n\nNot building:\n- Full implementations, hardware integration, multi-robot systems.\")",
+      "SlashCommand(/sp.plan)",
+      "Bash(pwsh -File \".specify/scripts/powershell/setup-plan.ps1\" -Json)",
+      "Bash(git checkout HEAD -- CLAUDE.md)",
+      "Bash(git rev-parse --git-dir)",
+      "Bash(npm run start)",
+      "Bash(npm run build)",
+      "Bash(npx docusaurus build)",
+      "Bash(npx docusaurus serve)",
+      "Bash(npx docusaurus start)",
+      "Bash(npx docusaurus start --port 3001)",
+      "Bash(npx docusaurus start --port 3002)",
+      "Bash(npx docusaurus start --port 3003)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
