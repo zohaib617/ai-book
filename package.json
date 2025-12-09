@@ -27,7 +27,6 @@
     "@docusaurus/module-type-aliases": "^3.1.0",
     "@docusaurus/types": "^3.1.0",
     "@docusaurus/tsconfig": "^3.1.0",
-    "@docusaurus/webpack-utils": "^3.1.0",
     "typescript": "^5.0.0"
   },
   "browserslist": {
@@ -43,6 +42,6 @@
     ]
   },
   "engines": {
-    "node": ">=18.0"
+    "node": "18.x"
   }
 }
